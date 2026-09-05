@@ -1,61 +1,46 @@
 <<<<<<< HEAD
-console.log("hello,World"); 
-console.log("hello,World"); 
+// const fs = require('fs');
+// const data = fs.readFileSync('notes.txt', 'utf-8');
+// console.log(data);
+// fs.writeFileSync('notes.txt', 'Krithya');
 
-const fs = require('fs');
-const data = fs.readFileSync('notes.txt', 'utf-8')
-console.log(data)
-fs.writeFileSync('notes.txt','My name is mukul');
+// const path = require('path');
+// const filepath = path.join(__dirname,'test', 'hello.txt');
+// console.log(filepath);
 
-const path = require('path');
-const filepath = path.join(__dirname, 'test','hello.txt');
-console.log(filepath) 
+// const os = require('os');
+// const user = os.userInfo();
+// console.log(user);
 
-const os= require('os');
-const user = os.userInfo();
+// const des = require('./data/des');
+// console.log(des);
 
-console.log(user)
+// const package = require('./data/package');
+// console.log(package);   
 
-const des = require('./module/des');
-console.log(des); 
-
-const packages = require('./module/packages');
-console.log(packages);   
-
-
-
-
-
-
-
+require('dotenv').config();
+const process = require('process');
 =======
-console.log("hello,World"); 
-console.log("hello,World"); 
+// const fs = require('fs');
+// const data = fs.readFileSync('notes.txt', 'utf-8');
+// console.log(data);
+// fs.writeFileSync('notes.txt', 'Krithya');
 
-const fs = require('fs');
-const data = fs.readFileSync('notes.txt', 'utf-8')
-console.log(data)
-fs.writeFileSync('notes.txt','My name is Nitin');
+// const path = require('path');
+// const filepath = path.join(__dirname,'test', 'hello.txt');
+// console.log(filepath);
 
-const path = require('path');
-const filepath = path.join(__dirname, 'test','hello.txt');
-console.log(filepath) 
+// const os = require('os');
+// const user = os.userInfo();
+// console.log(user);
 
-const os= require('os');
-const user = os.userInfo();
+// const des = require('./data/des');
+// console.log(des);
 
-console.log(user)
+// const package = require('./data/package');
+// console.log(package);   
 
-const des = require('./module/des');
-console.log(des); 
-
-const packages = require('./module/packages');
-console.log(packages);   
-
-
-
-
-
-
-
+require('dotenv').config();
+const process = require('process');
 >>>>>>> 47935ed (Add Web Dev III)
+console.log(process.env.PORT);
