@@ -1,7 +1,7 @@
 // const fs = require('fs')
 // const data = fs.readFileSync('notes.txt','utf-8')
 // console.log(data)
-//fs.writeFileSync('notes.txt','My Name Is Aditya')//
+//fs.writeFileSync('notes.txt','My Name Is Krithya')//
 
 // const path = require('path');
 // const filePath = path.join(__dirname, 'test','hello.text');
